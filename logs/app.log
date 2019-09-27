@@ -4,3 +4,15 @@
 2019-09-27 16:44:26,099 DEBUG  [main] XML is validated
 2019-09-27 16:47:19,037 DEBUG  [main] com.validate.xml.Validation
 2019-09-27 16:47:19,071 DEBUG  [main] XML is validated
+2019-09-27 16:54:03,284 DEBUG  [main] com.validate.xml.Validation
+2019-09-27 16:54:03,318 DEBUG  [main] XML is validated
+2019-09-27 16:55:55,129 DEBUG c.v.x.Validation [main] com.validate.xml.Validation
+2019-09-27 16:55:55,164 DEBUG c.v.x.Validation [main] XML is validated
+2019-09-27 17:01:40,665 DEBUG c.v.x.Validation [main] com.validate.xml.Validation
+2019-09-27 17:01:40,700 DEBUG c.v.x.Validation [main] XML is validated
+17:02:17.626 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+17:02:17.661 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:03:15,948 17:03:15.948 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:03:15,982 17:03:15.982 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:03:38,317 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:03:38,352 [main] DEBUG com.validate.xml.Validation - XML is validated

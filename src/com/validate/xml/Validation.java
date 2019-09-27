@@ -15,16 +15,17 @@ import org.xml.sax.SAXException;
 
 public class Validation {
 	
-	
+	private Logger logger = LogManager.getLogger(Validation.class.getName());
 	
 	public static void main(String[] args) throws IOException
 	{
 		File file = new File("my.xml");
 		
 		//logger.
-		System.setProperty("log4j.configurationFile", "configuration.xml");
-		Logger logger = LogManager.getLogger(LogManager.ROOT_LOGGER_NAME);
-		logger.debug(Validation.class.getName());
+		//System.setProperty("log4j.configurationFile", "configuration.xml");
+		Validation val = new Validation();
+		
+		val.getLogger().debug(Validation.class.getName());
 		try {
 			SchemaFactory factory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
 			Schema schema = factory.newSchema(new File("myxsd.xsd"));
@@ -35,8 +36,12 @@ public class Validation {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally{
-			logger.debug("XML is validated");
+			val.getLogger().debug("XML is validated");
 		}
+	}
+
+	public Logger getLogger() {
+		return logger;
 	}
 
 }
