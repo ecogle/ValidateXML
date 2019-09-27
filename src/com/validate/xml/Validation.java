@@ -21,8 +21,6 @@ public class Validation {
 	{
 		File file = new File("my.xml");
 		
-		//logger.
-		//System.setProperty("log4j.configurationFile", "configuration.xml");
 		Validation val = new Validation();
 		
 		val.getLogger().debug(Validation.class.getName());
@@ -30,14 +28,21 @@ public class Validation {
 			SchemaFactory factory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
 			Schema schema = factory.newSchema(new File("myxsd.xsd"));
 			Validator validator = schema.newValidator();
-			validator.validate(new StreamSource(new File("my.xml")));
+			validator.validate(new StreamSource(file));
+			val.getLogger().debug("XML is validated");
 			
 		} catch (SAXException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			
+			val.getLogger().debug("XML Validation Failed");
+			val.getLogger().catching(e);
+			
 		} finally{
-			val.getLogger().debug("XML is validated");
+			
 		}
+		
+		FileWriter fw = new FileWriter();
+		
+		fw.writeMe(new File("myMessage"), "Now is the time for all good me to come to the aid of their country\n");
 	}
 
 	public Logger getLogger() {

@@ -16,3 +16,197 @@
 2019-09-27 17:03:15,982 17:03:15.982 [main] DEBUG com.validate.xml.Validation - XML is validated
 2019-09-27 17:03:38,317 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
 2019-09-27 17:03:38,352 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:12:33,614 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:12:33,654 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:13:32,156 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:13:32,192 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:13:48,878 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:13:48,914 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:15:17,790 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:15:17,824 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:15:28,530 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:15:28,576 [main] ERROR com.validate.xml.Validation - Catching
+org.xml.sax.SAXParseException: cvc-datatype-valid.1.2.1: 'e' is not a valid value for 'integer'.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:453) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3231) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.elementLocallyValidType(XMLSchemaValidator.java:3146) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.processElementContent(XMLSchemaValidator.java:3056) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleEndElement(XMLSchemaValidator.java:2135) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.endElement(XMLSchemaValidator.java:854) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.StreamValidatorHelper.validate(StreamValidatorHelper.java:152) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl.validate(ValidatorImpl.java:116) ~[?:1.8.0_201]
+	at javax.xml.validation.Validator.validate(Validator.java:124) ~[?:1.8.0_201]
+	at com.validate.xml.Validation.main(Validation.java:33) [bin/:?]
+2019-09-27 17:16:16,937 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:16:16,976 [main] ERROR com.validate.xml.Validation - Catching
+org.xml.sax.SAXParseException: cvc-datatype-valid.1.2.1: 'e' is not a valid value for 'integer'.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:453) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3231) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.elementLocallyValidType(XMLSchemaValidator.java:3146) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.processElementContent(XMLSchemaValidator.java:3056) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleEndElement(XMLSchemaValidator.java:2135) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.endElement(XMLSchemaValidator.java:854) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.StreamValidatorHelper.validate(StreamValidatorHelper.java:152) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl.validate(ValidatorImpl.java:116) ~[?:1.8.0_201]
+	at javax.xml.validation.Validator.validate(Validator.java:124) ~[?:1.8.0_201]
+	at com.validate.xml.Validation.main(Validation.java:33) [bin/:?]
+2019-09-27 17:16:45,449 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:16:45,489 [main] ERROR com.validate.xml.Validation - Catching
+org.xml.sax.SAXParseException: cvc-datatype-valid.1.2.1: 'e' is not a valid value for 'integer'.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:453) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3231) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.elementLocallyValidType(XMLSchemaValidator.java:3146) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.processElementContent(XMLSchemaValidator.java:3056) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleEndElement(XMLSchemaValidator.java:2135) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.endElement(XMLSchemaValidator.java:854) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.StreamValidatorHelper.validate(StreamValidatorHelper.java:152) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl.validate(ValidatorImpl.java:116) ~[?:1.8.0_201]
+	at javax.xml.validation.Validator.validate(Validator.java:124) ~[?:1.8.0_201]
+	at com.validate.xml.Validation.main(Validation.java:33) [bin/:?]
+2019-09-27 17:21:38,840 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:21:38,879 [main] ERROR com.validate.xml.Validation - Catching
+org.xml.sax.SAXParseException: cvc-maxInclusive-valid: Value '72' is not facet-valid with respect to maxInclusive '12' for type '#AnonType_gradeStudentType'.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:453) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3231) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.elementLocallyValidType(XMLSchemaValidator.java:3146) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.processElementContent(XMLSchemaValidator.java:3056) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleEndElement(XMLSchemaValidator.java:2135) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.endElement(XMLSchemaValidator.java:854) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.StreamValidatorHelper.validate(StreamValidatorHelper.java:152) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl.validate(ValidatorImpl.java:116) ~[?:1.8.0_201]
+	at javax.xml.validation.Validator.validate(Validator.java:124) ~[?:1.8.0_201]
+	at com.validate.xml.Validation.main(Validation.java:31) [bin/:?]
+2019-09-27 17:21:53,698 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:21:53,736 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:30:55,292 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:30:55,331 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:31:09,821 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:31:09,862 [main] DEBUG com.validate.xml.Validation - XML Validation Failed
+2019-09-27 17:31:56,350 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:31:56,393 [main] DEBUG com.validate.xml.Validation - XML Validation Failed
+2019-09-27 17:31:56,394 [main] ERROR com.validate.xml.Validation - Catching
+org.xml.sax.SAXParseException: cvc-maxInclusive-valid: Value '13' is not facet-valid with respect to maxInclusive '12' for type '#AnonType_gradeStudentType'.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:453) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3231) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.elementLocallyValidType(XMLSchemaValidator.java:3146) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.processElementContent(XMLSchemaValidator.java:3056) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleEndElement(XMLSchemaValidator.java:2135) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.endElement(XMLSchemaValidator.java:854) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.StreamValidatorHelper.validate(StreamValidatorHelper.java:152) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl.validate(ValidatorImpl.java:116) ~[?:1.8.0_201]
+	at javax.xml.validation.Validator.validate(Validator.java:124) ~[?:1.8.0_201]
+	at com.validate.xml.Validation.main(Validation.java:31) [bin/:?]
+2019-09-27 17:43:03,806 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:43:03,844 [main] DEBUG com.validate.xml.Validation - XML Validation Failed
+2019-09-27 17:43:03,844 [main] ERROR com.validate.xml.Validation - Catching
+org.xml.sax.SAXParseException: cvc-maxInclusive-valid: Value '13' is not facet-valid with respect to maxInclusive '12' for type '#AnonType_gradeStudentType'.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:453) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3231) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.elementLocallyValidType(XMLSchemaValidator.java:3146) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.processElementContent(XMLSchemaValidator.java:3056) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleEndElement(XMLSchemaValidator.java:2135) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.endElement(XMLSchemaValidator.java:854) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.StreamValidatorHelper.validate(StreamValidatorHelper.java:152) ~[?:1.8.0_201]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl.validate(ValidatorImpl.java:116) ~[?:1.8.0_201]
+	at javax.xml.validation.Validator.validate(Validator.java:124) ~[?:1.8.0_201]
+	at com.validate.xml.Validation.main(Validation.java:31) [bin/:?]
+2019-09-27 17:43:03,854 [main] DEBUG com.validate.xml.FileWriter - Entering writeMe
+2019-09-27 17:44:54,966 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:44:55,000 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:44:55,001 [main] DEBUG com.validate.xml.FileWriter - Entering writeMe
+2019-09-27 17:47:56,729 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:47:56,766 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:47:56,768 [main] DEBUG com.validate.xml.FileWriter - Entering writeMe
+2019-09-27 17:48:20,552 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:48:20,590 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:48:20,591 [main] DEBUG com.validate.xml.FileWriter - Entering writeMe
+2019-09-27 17:48:45,501 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:48:45,538 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:48:45,539 [main] DEBUG com.validate.xml.FileWriter - Entering writeMe
+2019-09-27 17:48:57,410 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:48:57,447 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:48:57,448 [main] DEBUG com.validate.xml.FileWriter - Entering writeMe
+2019-09-27 17:49:28,286 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:49:28,324 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:49:28,325 [main] DEBUG com.validate.xml.FileWriter - Entering writeMe
+2019-09-27 17:50:51,980 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:50:52,016 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:50:52,017 [main] DEBUG com.validate.xml.FileWriter - Entering writeMe
+2019-09-27 17:51:06,056 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:51:06,090 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:51:06,091 [main] DEBUG com.validate.xml.FileWriter - Entering writeMe
+2019-09-27 17:51:25,183 [main] DEBUG com.validate.xml.Validation - com.validate.xml.Validation
+2019-09-27 17:51:25,219 [main] DEBUG com.validate.xml.Validation - XML is validated
+2019-09-27 17:51:25,220 [main] DEBUG com.validate.xml.FileWriter - Entering writeMe
