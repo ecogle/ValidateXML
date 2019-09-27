@@ -1,2 +1,6 @@
 2019-09-27 13:41:16,262 DEBUG  [main] com.validate.xml.Validation
 2019-09-27 13:41:16,296 DEBUG  [main] XML is validated
+2019-09-27 16:44:26,066 DEBUG  [main] com.validate.xml.Validation
+2019-09-27 16:44:26,099 DEBUG  [main] XML is validated
+2019-09-27 16:47:19,037 DEBUG  [main] com.validate.xml.Validation
+2019-09-27 16:47:19,071 DEBUG  [main] XML is validated
